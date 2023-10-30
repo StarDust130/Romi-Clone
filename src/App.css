@@ -1,0 +1,16 @@
+
+html{
+    scroll-behavior:smooth;
+    color: white;
+    background-color: #000000;
+}
+
+.btn{
+   background-color: #3eb489;
+}
+
+.active-link {
+  border-bottom: 2px solid white; 
+  
+  
+}
