@@ -19,6 +19,7 @@ const NavBar = () => {
                 <span
                   className="font-bold text-2xl"
                   style={{ fontFamily: "Lobster, cursive" }}
+                  
                 >
                   Romi Finance
                 </span>
