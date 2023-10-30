@@ -1,8 +1,17 @@
-# React + Vite
+<h1>My Romi Clone</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+  <h3>🔗 View the live project <a href="[https://your-project-url.netlify.ap](https://star-dust-romi-finance.netlify.app/)p" target="_blank">here</a>.</h3>
 
-Currently, two official plugins are available:
+  <p>📚 Check out the <a href="https://github.com/yourusername/your-repo" target="_blank">GitHub repository</a> for the source code.</p>
+  
+  <div class="tech-stack">
+    <p>Technologies Used:</p>
+     <ul>
+    <li>HTML 🌐</li>
+    <li>CSS 🎨</li>
+    <li>React ⚛️</li>
+    <li>Tailwind CSS 🌀</li>
+  </ul>
+  </div>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
