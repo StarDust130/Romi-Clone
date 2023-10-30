@@ -12,16 +12,25 @@ const NavBar = () => {
         className="w-full bg-transparent   h-16 text-white m-0 p-2 flex justify-between items-center shadow-inner border-b border-gray-500"
       >
         <div className="flex justify-start">
-          <Link to="/">
-            <img className="h-20" src={logo} alt="logo" />
-          </Link>
+          <div className="flex justify-start">
+            <Link to="/">
+              <div className="flex items-center">
+                <img className="h-20" src={logo} alt="logo" />
+                <span
+                  className="font-bold text-2xl"
+                  style={{ fontFamily: "Lobster, cursive" }}
+                >
+                  Romi Finance
+                </span>
+              </div>
+            </Link>
+          </div>
         </div>
         <div className="flex justify-center gap-12 text-gray-400 font-semibold">
           <NavLink
             to="/"
             className="hover:text-white"
             activeClassName="active-link"
-            
           >
             Home
           </NavLink>

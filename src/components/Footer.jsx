@@ -5,7 +5,15 @@ const Footer = () => {
   return (
     <footer className="bg-transparent mb-10 text-white text-center py-6 cursor-pointer h-40  border-t border-gray-500 ">
       <a href="#nav">
-        <img src={logo} alt="logo" className="mx-auto h-20" />
+        <div className="flex items-center justify-center">
+          <img src={logo} alt="logo" className="h-20" />
+          <span
+            className="font-extrabold text-xl mt-1"
+            style={{ fontFamily: "Lobster, cursive" }}
+          >
+            Romi Finance
+          </span>
+        </div>
       </a>
       <div className="flex justify-center my-4 gap-5">
         <img
@@ -34,7 +42,7 @@ const Footer = () => {
           className="icon hover:opacity-70"
         />
       </div>
-      <div className="flex justify-center mt-2 mb-8" >
+      <div className="flex justify-center mt-2 mb-8">
         <p className="mx-2 hover:text-gray-500">Terms and Conditions</p>
         <p className="mx-2 hover:text-gray-500 cursor-pointer">
           Referral Terms
