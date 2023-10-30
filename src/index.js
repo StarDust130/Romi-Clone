@@ -2,7 +2,7 @@
 
 import Home from "./pages/Home";
 import Earn from "./pages/Earn";
-import Dashboard from "./pages/Dashboard";
+import DashBoard from "./pages/DashBoard";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import img1 from "./assets/img1.png";
@@ -64,4 +64,4 @@ const project3 = [
   },
 ];
 
-export { Home, Earn, Dashboard, NavBar, Footer, project, project2, project3 };
+export { Home, Earn, DashBoard, NavBar, Footer, project, project2, project3 };
