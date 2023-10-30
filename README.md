@@ -11,6 +11,7 @@ Here's the tech stack I used for this project:
 
 - HTML 🌐
 - CSS 🎨
+-  JavaScript 🤖
 - React ⚛️
 - Tailwind CSS 🌀
 
